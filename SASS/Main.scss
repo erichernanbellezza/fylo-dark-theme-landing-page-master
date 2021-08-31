@@ -1,0 +1,257 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: hsl(218, 28%, 13%);
+	color: white;
+	font-family: "Raleway";
+	button {
+		margin-top: 1.5em;
+		padding: 1em 5em 1em 5em;
+		border-radius: 25px;
+		border: none;
+		color: white;
+		background: linear-gradient(
+			to right,
+			hsl(176, 68%, 64%),
+			hsl(198, 60%, 50%)
+		);
+	}
+	button:hover {
+		background: hsl(176, 68%, 64%);
+	}
+	a {
+		color: rgb(224, 223, 223);
+		text-decoration: none;
+	}
+	a:hover {
+		color: white;
+	}
+	header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-bottom: 4em;
+		img {
+			width: 22%;
+			margin-top: 1.5em;
+		}
+		nav {
+			margin-top: 1.5em;
+			a {
+				font-size: 0.8rem;
+				margin-left: 0.7em;
+				opacity: 0.9;
+			}
+		}
+	}
+	main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.firstSection {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 6em;
+			.imageIntro {
+				width: 80vw;
+			}
+			img:hover {
+				transform: scale(1.1, 1.1);
+			}
+			h1 {
+				margin-top: 1.5em;
+				margin-bottom: 1.5em;
+				font-size: 1.3rem;
+				width: 94%;
+				text-align: center;
+				opacity: 0.9;
+			}
+			p {
+				width: 88%;
+				text-align: center;
+			}
+		}
+		.secondSection {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			img {
+				width: 25%;
+				margin-bottom: 2em;
+				margin-top: 2em;
+			}
+			img:hover {
+				transform: scale(1.2, 1.2);
+			}
+			h2 {
+				width: 77%;
+				text-align: center;
+				margin-bottom: 0.5em;
+			}
+			p {
+				width: 85%;
+				text-align: center;
+			}
+		}
+		.thirdSection {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 7em;
+			margin-bottom: 5em;
+			img {
+				width: 80%;
+			}
+			img:hover {
+				transform: scale(1.2, 1.2);
+			}
+			h2 {
+				font-size: 1rem;
+				text-align: center;
+				width: 77%;
+				margin-top: 2em;
+				margin-bottom: 0.9em;
+			}
+			p {
+				width: 85%;
+				margin-top: 2em;
+			}
+			a {
+				margin-top: 1.5em;
+				width: 140%;
+				color: hsl(176, 68%, 64%);
+				opacity: 0.8;
+			}
+			.fyloWorks {
+				display: flex;
+				flex-direction: row-reverse;
+				border-bottom: solid 1px hsl(176, 68%, 64%);
+				padding-bottom: 0.5em;
+				img {
+					width: 15%;
+					height: 15%;
+					position: relative;
+					top: 1.7em;
+					left: 0.2em;
+				}
+			}
+		}
+		.fourthSection {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			.containerDeclarations {
+				background: hsl(219, 30%, 18%);
+				padding: 1.2em;
+				width: 70%;
+				margin-bottom: 2em;
+				border-radius: 10px;
+				.declarations {
+					display: flex;
+					flex-direction: row;
+					margin-top: 1.5em;
+					.declarationBruce {
+						h4 {
+							width: 75%;
+						}
+					}
+					img {
+						width: 15%;
+						height: 15%;
+						border-radius: 30px;
+						margin-right: 0.5em;
+					}
+				}
+			}
+			p {
+				opacity: 0.9;
+			}
+			h4 {
+				width: 60%;
+				opacity: 0.9;
+			}
+		}
+		.fifthSection {
+			background: hsl(219, 30%, 18%);
+			padding: 2em 0.2em 2em 0.2em;
+			border-radius: 10px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			width: 90%;
+			h2 {
+				width: 100%;
+				font-size: 1.2rem;
+			}
+			p {
+				width: 85%;
+			}
+			input {
+				width: 42%;
+				border-radius: 40px;
+				margin-top: 1.5em;
+				padding: 1em 5em 1em 5em;
+			}
+		}
+	}
+	footer {
+		margin-top: 5em;
+		.sectionFooter {
+			margin-left: 1em;
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 1em;
+			a {
+				margin-top: 1em;
+			}
+			.logoFooter {
+				width: 55%;
+				margin-bottom: 2em;
+			}
+			.subSectionFooter {
+				width: 80%;
+				display: flex;
+				flex-direction: row;
+				margin-bottom: 1.2em;
+				img {
+					width: 10%;
+					height: 10%;
+					margin-right: 1em;
+				}
+				.icons {
+					width: 6%;
+				}
+			}
+		}
+		.socialNetworks {
+			display: flex;
+			justify-content: center;
+			ion-icon {
+				margin-left: 1em;
+				margin-bottom: 2em;
+				margin-top: 3em;
+				border-radius: 30px;
+				border: 1px white solid;
+				padding: 0.3em;
+				opacity: 0.8;
+			}
+			.facebook:hover {
+				color: rgb(74, 108, 218);
+				border: 1px rgb(74, 108, 218) solid;
+			}
+			.twitter:hover {
+				color: skyblue;
+				border: 1px skyblue solid;
+			}
+			.instagram:hover {
+				color: crimson;
+				border: 1px crimson solid;
+			}
+		}
+	}
+}
