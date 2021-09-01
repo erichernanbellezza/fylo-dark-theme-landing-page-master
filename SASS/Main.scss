@@ -151,6 +151,12 @@ body {
 					left: 0.2em;
 				}
 			}
+			.fyloWorks:hover {
+				border-bottom: solid 1px hsl(176, 59%, 76%);
+				a {
+					color: hsl(176, 59%, 76%);
+				}
+			}
 		}
 		.fourthSection {
 			display: flex;
